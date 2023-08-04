@@ -1,69 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brock Walls Mechanical Engineer</title>
-    <style>
-        body {
-            font-family: "Times New Roman", Times, serif;
-            color: ##ffaf00;
-            background-color: #210002;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #210002;
-            text-align: center;
-            padding: 20px 0;
-        }
-        nav {
-            text-align: center;
-        }
-        nav a {
-            color: ##ffaf00;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        .container {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-        .column {
-            width: 50%;
-            text-align: center;
-        }
-    </style>
+   <!-- MathJax -->
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+   </script>
+   <script>
+      MathJax = {
+         tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+         }
+      };
+   </script>
+   <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+   </script>
+
+
+
+   <!--- Basics
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Brock Walls - Mechanical Engineer</title>
+   <meta name="description" content="Brock Walls is an Underaduate Mechanical Engineer graduating in 2023. Areas of interest include; aerospace, field Engineer and reserch in ski binding mechanisms.">
+   <meta name="author" content="Brock Walls">
+
+   <!-- Mobile Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+   ================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
-    <header>
-        <h1>Brock Walls Mechanical Engineer</h1>
-    </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#education">Education/Experience</a>
-        <a href="#samples">Work Samples</a>
-        <a href="#more">More</a>
-    </nav>
-    <div class="container">
-        <div class="column">
-            <p>
-                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis est ut justo
-                facilisis aliquet. Quisque ut nunc vel mi volutpat posuere. Vivamus ut ultrices odio. Fusce
-                volutpat dolor sit amet massa ultrices, nec pulvinar eros euismod. Praesent maximus orci euismod
-                turpis lacinia, eu aliquet sapien congue. In hac habitasse platea dictumst. Donec id ligula
-                pharetra, congue metus et, bibendum felis. Nam a tellus vel lectus eleifend fermentum.
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+      <nav id="nav-wrap">
+         <ul id="nav" class="nav">
+               <h3>Brock Walls<span>- Mechanical Engineer</span></h3>
+               <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+               <li><a class="smoothscroll" href="#research">Education and Professional Experance</a></li>
+               <li><a class="smoothscroll" href="#teaching">Portfilo</a></li>
+               <li><a class="smoothscroll" href="#more">More</a></li>
+         </ul> <!-- end #nav -->
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <div class="home-banner">
+            <h3>Stuff about me goes here I guess<br><br>
+
+
+            <font color="#7d9be8">Contact:</font> <a href="mailto:brockwalls05@gmail.com">Email</a></h3>
+            <div style="text-align: left"><img src="IMG_9764.jpeg"></div>
+         </div>
+         </div>
+      </div>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#research"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- Publication Section
+   ================================================== -->
+   <section id="research">
+
+            <h2>SELECTED RESEARCH</h2>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px;"><b><font color="#7d9be8">Title:</font> <a href="https://arxiv.org/abs/2010.13937" title="heterogeneity">Consumer Theory with <span>Non-Parametric </span>Taste Uncertainty and Individual Heterogeneity</a><br>
+               <font color="#7d9be8">Authors:</font> <span>Christopher </span>Dobronyi<g>,</g><span> and Christian</span> Gouriéroux</font><br>
+               <font color="#7d9be8">Conferences:</font> <font color="#B03A2E"><g>ESEM</g><span>Econometric Society European Meeting</span> (2021), <g>CFE (2020)</g><span>Conference on Computational and Financial Econometrics (2020)</span></font><br>
+               <font color="#7d9be8">Seminars:</font> <font color="#B03A2E"><g>Ottawa, Toronto, Waterloo</g><span>University of Ottawa, University of Toronto, University of Waterloo</span></font><br>
+               <font color="#7d9be8">More:</font><a href="heterogeneity.pdf"> Slides</a></b></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This paper introduces two models of non-parametric random utility for demand systems. In each model, individual-level heterogeneity is characterized by a distribution $\pi\in\Pi$ of taste parameters, and heterogeneity across consumers is introduced using a distribution $F$ over the distributions in $\Pi$. Demand is non-separable and heterogeneity is infinite-dimensional. Two frameworks for estimation are considered: a Bayesian framework, and a hyperparametric framework.</i>
+
             </p>
-        </div>
-        <div class="column">
-            <p>
-                More sample text. Sed consectetur, justo ut tempor euismod, tortor nisi auctor tellus, eu rutrum
-                ipsum augue nec sapien. Nullam bibendum malesuada orci nec venenatis. In ac leo a velit elementum
-                auctor. Sed volutpat urna ac massa sagittis, et fermentum neque euismod. Integer nec odio ut
-                mauris pellentesque venenatis a non turpis. Duis ac risus vel tortor bibendum auctor.
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Title:</font> Stochastic Revealed Preference: A Non-Parametric Approach for Scanner Data<br>
+            <font color="#7d9be8">Authors:</font> <span>Christopher </span>Dobronyi<g>,</g><span> and Christian</span> Gouriéroux</font><br>
+            <font color="#7d9be8">Conferences:</font> <font color="#B03A2E"> <g>ESWC</g><span>Econometric Society World Congress</span> (2020), $\textbf{EC}^2$ <span>Conference on High Dimensional Modeling in Time Series</span> (2020)</font><br>
+            <font color="#7d9be8">Seminars:</font> <font color="#B03A2E"><g>Toronto</g><span>University of Toronto</span></font><br>
+            <font color="#7d9be8">More:</font> <a href="randomfields.pdf"> Slides, </a> <a href = "https://youtu.be/jnZv0HYpLEc?t=5461"> Recorded ESWC Presentation</a></b></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This paper uses random fields to develop a non-parametric model of consumption with infinite-dimensional heterogeneity appropriate for scanner data. Consumers are allowed to be quasi-rational. The theory of generalized functions is used to test the integrability of expected demand at a parametric rate. When variation in preferences is small, they can be recovered by approximating the relationship between preferences and demand using a first-order expansion and applying an analogue of the delta-method. Else, preferences can be recovered numerically.</i>
+
             </p>
-        </div>
-    </div>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Title:</font> <a href="https://arxiv.org/abs/2104.04590">Moment Equalities and Inequalities in Dynamic Panel Logit Models with <span>Fixed Effects</span><g>FEs</g></a><br>
+            <font color="#7d9be8">Authors:</font> <span>Christopher </span>Dobronyi,<span> Jiaying</span> Gu,<span> and Kyoo il</span> Kim</b></a></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This paper uses moment problems to characterize the sharp identified set for the parameters in a class of dynamic panel logit models with fixed effects. All information is characterized by a small collection of moment equalities and inequalities. This result is used to identify sharp bounds for the parameters in models without point identification, rule out false roots in models that cannot be identified using only moment equalities, and identify sharp bounds on functionals of the distribution of heterogeneity.</i>
+
+            </p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Title:</font><a href="https://www.tandfonline.com/doi/abs/10.1080/19345747.2018.1517849"> Goal Setting, Academic Reminders, and College Success: A Large<span>-Scale</span> Field Experiment</a><br>
+            <font color="#7d9be8">Authors:</font> <span>Christopher </span>Dobronyi,<span> Philip</span> Oreopoulos,<span> and Uros</span> Petronijevic<br>
+            <font color="#7d9be8">Journal Information:</font> <font color="#B03A2E"> <span>Journal of Research on Educational Effectiveness</span><g>JREE</g> 12(1): 38-66</b></font></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px;"><i>This paper presents an independent large-scale experimental evaluation of two online goal-setting interventions. Approximately 1,400 first-year undergraduate students at the University of Toronto were randomly assigned into either treatment or control. Half of the treated students were also offered the opportunity to receive academic reminders. This paper finds no evidence of an effect on grade point average, course credits, or second-year persistence. These results hold by subsample, and across a large number of specifications.</i>
+
+            </p>
+
+   </section> <!-- Research Section End-->
+
+   <!-- Teaching Section
+   ================================================== -->
+   <section id="teaching">
+
+            <h2>TEACHING</h2>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px;"><b><font color="#7d9be8">Course:</font> <b> Perspectives on Computational Modeling for Economics (ECMA 31140 / MACS 30150)</b><br>
+               <font color="#7d9be8">Institution:</font> <font color="#B03A2E">University of Chicago</font><br>
+               <font color="#7d9be8">Level:</font> <font color="#B03A2E">Graduate</font><br>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This course introduces graduate students to computational problems in microeconomics and econometrics. We will cover a wide variety of topics related to convex optimization, non-parametric estimation, revealed preference, demand, discrete choice, matching, and game theory.</i>
+
+            </p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Course:</font> <b> Empirical Industrial Organization (ECMA 38010)</b><br>
+               <font color="#7d9be8">Institution:</font> <font color="#B03A2E">University of Chicago</font><br>
+               <font color="#7d9be8">Level:</font> <font color="#B03A2E">Graduate</font><br>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This course provides a rigorous introduction to structural econometrics with topics in empirical industrial organization. The first half of the course focuses on estimating discrete choice models, and the second half of the course focuses on estimating games.</i>
+
+            </p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Course:</font> <b> Econometrics (ECON 21020)</b><br>
+               <font color="#7d9be8">Institution:</font> <font color="#B03A2E">University of Chicago</font><br>
+               <font color="#7d9be8">Level:</font> <font color="#B03A2E">Undergraduate</font><br>
+            <font color="#7d9be8">Teaching Evaluations: </font><a href="evaluation1.pdf">1</a>, <a href="evaluation2.pdf">2</a><br></b></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; border-bottom: 2px dashed; border-color: #7d9be8"><i>This course covers econometric theory with applications in economics. We will cover probability, statistics, linear regression, hypothesis testing, goodness-of-fit, specification issues, measurement error, random coefficients, instrumental variables, and fixed effects. We will cover theory, implementation, and practical considerations.</i>
+
+            </p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-top: 20px; padding-bottom: 20px;"><b><font color="#7d9be8">Course:</font> <b>Applied Game Theory (ECON 316)</b><br>
+            <font color="#7d9be8">Institution:</font> <font color="#B03A2E">University of Toronto</font><br>
+               <font color="#7d9be8">Level:</font> <font color="#B03A2E">Underaduate</font><br>
+            <font color="#7d9be8">Teaching Evaluations: </font><a href="evaluation.pdf">1</a><br></b></p>
+
+            <p style="margin: 0 auto; padding-left: 10px; padding-right: 10px;padding-bottom: 20px;"><i>This course provides an introduction to game theory with applications in economics. We will cover simultaneous, extensive, and repeated games both with and without complete information. Applications will include electoral competition, collective choice, and auctions.</i>
+
+            </p>
+
+   </section> <!-- Teaching Section End-->
+
+   <!-- More Section
+   ================================================== -->
+   <section id="more">
+
+            <h2>MORE</h2>
+
+
+   </section>
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+            
+            <!--<p>
+               <a class="smoothscroll" href="#home"><i class="icon-up-circle"></i></a>
+            </p>-->
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2023 Brock Walls</li>
+            </ul>
+
+         </div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+
 </body>
+
 </html>
