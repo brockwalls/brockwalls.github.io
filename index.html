@@ -1,165 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      color: #210002;
-      background-color: #f9f9f9;
-    }
-
-    header {
-      background-color: #0D6986;
-      color: #fff;
-      text-align: center;
-      padding: 40px 0;
-    }
-
-    h1 {
-      font-size: 36px;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-top: 0;
-      color: #0D6986;
-      border-bottom: 2px solid #0D6986;
-      padding-bottom: 5px;
-    }
-
-    section {
-      padding: 30px;
-    }
-
-    footer {
-      background-color: #0D6986;
-      color: #fff;
-      text-align: center;
-      padding: 20px 0;
-    }
-
-    .project {
-      margin-bottom: 40px;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-    }
-
-    .project h3 {
-      font-size: 24px;
-      color: #0D6986;
-      margin-bottom: 10px;
-    }
-
-    .project p {
-      font-size: 16px;
-    }
-
-    .contact-info {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    .contact-info p {
-      margin: 0;
-      margin-right: 20px;
-      font-size: 18px;
-    }
-
-    .social-icons {
-      margin-top: 20px;
-    }
-
-    .social-icons a {
-      display: inline-block;
-      margin-right: 15px;
-      font-size: 24px;
-      color: #0D6986;
-      transition: color 0.2s;
-    }
-
-    .social-icons a:hover {
-      color: #210002;
-    }
-
-    /* Media Queries */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 30px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
-
-      .project {
-        padding: 15px;
-      }
-
-      .contact-info p {
-        font-size: 16px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brock Walls Mechanical Engineer</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: #0D6986;
+            background-color: #210002;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #210002;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            color: #0D6986;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .column {
+            width: 50%;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Front-end Developer | UI/UX Designer</p>
-    <div class="social-icons">
-      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+    <header>
+        <h1>Brock Walls Mechanical Engineer</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#education">Education/Experience</a>
+        <a href="#samples">Work Samples</a>
+        <a href="#more">More</a>
+    </nav>
+    <div class="container">
+        <div class="column">
+            <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis est ut justo
+                facilisis aliquet. Quisque ut nunc vel mi volutpat posuere. Vivamus ut ultrices odio. Fusce
+                volutpat dolor sit amet massa ultrices, nec pulvinar eros euismod. Praesent maximus orci euismod
+                turpis lacinia, eu aliquet sapien congue. In hac habitasse platea dictumst. Donec id ligula
+                pharetra, congue metus et, bibendum felis. Nam a tellus vel lectus eleifend fermentum.
+            </p>
+        </div>
+        <div class="column">
+            <p>
+                More sample text. Sed consectetur, justo ut tempor euismod, tortor nisi auctor tellus, eu rutrum
+                ipsum augue nec sapien. Nullam bibendum malesuada orci nec venenatis. In ac leo a velit elementum
+                auctor. Sed volutpat urna ac massa sagittis, et fermentum neque euismod. Integer nec odio ut
+                mauris pellentesque venenatis a non turpis. Duis ac risus vel tortor bibendum auctor.
+            </p>
+        </div>
     </div>
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Add a brief description of yourself here. Mention your skills, experience, and any other relevant information
-      you'd like to share.
-    </p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>
-        Brief description of the project. You can also add a link to the project's GitHub repository or live demo.
-      </p>
-    </div>
-
-    <!-- Add more project divs as needed -->
-
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <div class="contact-info">
-      <p>Email: your.email@example.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </div>
-    <!-- Add more contact information as needed -->
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-  </footer>
-
-  <!-- Font Awesome icons -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-DlFcJvLyGBheVwBepcvuNYtORy5jus2iln8F4Lph3IDePL8M2Y3VL0FkO32CSNRMZie/PLRuefw3CkEgLFmKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 </html>
